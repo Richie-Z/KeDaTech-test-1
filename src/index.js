@@ -38,7 +38,7 @@ const countEvenNumbers = (obj) => {
       count += countEvenNumbers(value);
     }
     if (typeof value === 'number' && value % 2 === 0) {
-      count++;
+      count += value;
     }
   }
   return count;
