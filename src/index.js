@@ -44,4 +44,4 @@ const countEvenNumbers = (obj) => {
   return count;
 }
 
-export { sortDescending, findMaxSubarray, countEvenNumbers };
+module.exports = { sortDescending, findMaxSubarray, countEvenNumbers };
